@@ -2,20 +2,20 @@
     background: url('../../assets/bg.png');
     background-size: cover;
     height: 100vh;
+    overflow: hidden;
 }
+::ng-deep .mat-grid-tile,
 ::ng-deep .mat-figure{
     flex-direction: column;
+    align-items: flex-start !important;
 }
 ::ng-deep .mat-flat-button{
-    margin: 5px !important;
+    margin: 0 20px !important;
 }
-/* .figure-container{
-    padding: 0 20px;
-} */
 .title, .description{
     color: white;
-    padding: 5px;
+    padding: 0 20px;
 }
 .img{
-    height: 100vh;
+    object-fit: fit;
 }
