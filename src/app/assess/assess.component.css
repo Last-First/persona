@@ -1,0 +1,16 @@
+.container-fluid{
+    background: url('../../assets/bg.png');
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row;
+    height: 100vh;
+}
+.div{
+    display: flex;
+    flex-flow: column;
+}
+.typography{
+    color: white;
+}

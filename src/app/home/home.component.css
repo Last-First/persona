@@ -1,8 +1,11 @@
-.parallax{
+.container-fluid{
     background: url('../../assets/bg.png');
     background-size: cover;
     height: 100vh;
     overflow: hidden;
+}
+::ng-deep .mat-grid-list{
+    height: 100vh !important;
 }
 ::ng-deep .mat-grid-tile,
 ::ng-deep .mat-figure{
@@ -10,12 +13,24 @@
     align-items: flex-start !important;
 }
 ::ng-deep .mat-flat-button{
-    margin: 0 20px !important;
+    margin: 40px 20px 0 !important;
+}
+.div{
+    margin: 0 200px 0 100px;
+    border-left: 10px solid white;
 }
 .title, .description{
     color: white;
     padding: 0 20px;
 }
-.img{
-    object-fit: fit;
+.title{
+    font-size: 3.5em;
+}
+.description{
+    font-size: 1.4em;
+    line-height: 1.5;
+}
+img{
+    object-fit: cover;
+    overflow: hidden;
 }
