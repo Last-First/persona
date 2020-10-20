@@ -1,5 +1,7 @@
 # Persona
 
+Persona is a web app prototype for personality assessment with the integration of dialogflow essentials.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
 
 ## Development server
